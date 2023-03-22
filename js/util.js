@@ -1,14 +1,14 @@
-(function () {
-  if (typeof Mario === "undefined") {
-    window.Mario = {};
-  }
+(function() {
+    if (typeof Mario === 'undefined') {
+        window.Mario = {};
+    }
 
-  let Util = (Mario.Util = {});
+    var Util = Mario.Util = {};
 
-  Util.inherits = function (subclass, superclass) {
-    function Surrogate() {}
+    Util.inherits = function(subclass, superclass) {
+        function Surrogate() {};
 
-    Surrogate.prototype = superclass.prototype;
-    subclass.prototype = new Surrogate();
-  };
-})();
+        Surrogate.prototype = superclass.prototype;
+        subclass.prototype = new Surrogate();
+    }
+})()
