@@ -153,7 +153,7 @@
         }
       }
     }
-    //okay cool, now set the sprite
+
     if (this.crouching) {
       this.sprite.pos[0] = 176;
       this.sprite.speed = 0;

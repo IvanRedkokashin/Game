@@ -7,7 +7,7 @@ li {
   padding: 0;
 }
 body {
-  background-color: rgba(94, 79, 79, 0.836);
+  background-color: rgba(48, 40, 40, 0.836);
 }
 
 canvas {
@@ -35,4 +35,12 @@ html {
   position: absolute;
   top: 0;
   left: 0;
+}
+.git {
+  width: 50px;
+  height: 50px;
+}
+.controls {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
